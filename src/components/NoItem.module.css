@@ -1,0 +1,27 @@
+.noItem {
+  padding: 4rem 1.5rem;
+  gap: 1rem;
+}
+
+.noItem img {
+  width: 56px;
+}
+
+.text {
+  display: flex;
+
+}
+
+.noItem, .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text span {
+  line-height: 1.4;
+}
+
+.text span:first-child {
+  font-weight: 700;
+}

@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+  .wrapper {
+    padding: 1rem;
+  }
+}
+
+.content {
+  width: 736px;
+  margin-top: calc(0px - 1.5rem - 6px);
+}
+
+.sortButton {
+  top: 0;
+  position: fixed;
+  margin: 2rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 0;
+  font-size: 1.5rem;
+  max-height: 40px;
+  background: var(--purple-500);
+  color: var(--gray-200);
+  outline: none;
+  transition: color .2s, background .2s;
+}
+
+.sortButton:hover {
+  background: var(--purple-100);
+  color: var(--gray-100);
+  cursor: pointer;
+}

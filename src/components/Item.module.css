@@ -1,0 +1,74 @@
+.item {
+  background: var(--gray-500);
+  border-radius: 8px;
+  border: 1px solid var(--gray-400);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.header input[type=checkbox] {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  border: 2px solid var(--blue-100);
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.header input[type=checkbox]:hover {
+  background-color: var(--blue-500);
+}
+
+.header input[type=checkbox]:checked {
+  border: 0;
+  background-color: var(--purple-500);
+}
+
+.header input[type=checkbox]:checked:hover {
+  background-color: var(--purple-100);
+}
+
+.header span {
+  position: relative;
+  top: -0.5rem;
+  left: -1rem;
+  opacity: 0;
+}
+
+input[type=checkbox]:checked ~ span {
+  opacity: 1;
+}
+
+.content {
+  flex: 1;
+  align-self: stretch;
+  color: var(--gray-100);
+}
+
+.contentWithDecoration {
+  flex: 1;
+  align-self: stretch;
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.footer button {
+  background: transparent;
+  border: none;
+  color: var(--gray-300);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.375rem;
+  border-radius: 8px;
+  transition: color .2s, background .2s;
+}
+
+.footer button:hover {
+  background: var(--gray-400);
+  color: var(--red-100);
+  cursor: pointer;
+}

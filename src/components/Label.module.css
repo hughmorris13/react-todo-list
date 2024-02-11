@@ -1,0 +1,18 @@
+.labelWithBlueColor {
+  font-weight: 700;
+  color: var(--blue-100);
+}
+
+.labelWithPrupleColor {
+  font-weight: 700;
+  color: var(--purple-100);
+}
+
+.counter {
+  font-weight: 700;
+  margin-left: 0.5rem;
+  padding: 2px 8px;
+  border-radius: 100px;
+  background: var(--gray-400);
+  color: var(--gray-200);
+}

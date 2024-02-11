@@ -1,0 +1,26 @@
+.todo {
+  margin-top: 4rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 343px) {
+  .header {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: end;
+  }
+}
+
+.main {
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  border-top: 1px solid var(--gray-400);
+  min-height: 244px;
+  gap: 0.75rem;
+  display: flex;
+  flex-direction: column;
+}
